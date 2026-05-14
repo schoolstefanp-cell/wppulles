@@ -4,11 +4,6 @@
 .env.*.local
 *.ini
 
-# Logs
-*.log
-logs/
-.log
-
 # Temporary Files
 *.tmp
 *.temp
@@ -88,3 +83,7 @@ private/
 local/
 temp/
 .local/
+
+# Log files (but NOT logs/.gitkeep for directory tracking)
+*.log
+.log
