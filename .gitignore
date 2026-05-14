@@ -1,0 +1,90 @@
+# Environment & Configuration
+.env
+.env.local
+.env.*.local
+*.ini
+
+# Logs
+*.log
+logs/
+.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Build & Distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+*.whl
+
+# Language-Specific
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.Python
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.vim/
+.sublime-*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets & Private Data
+secrets.json
+credentials.json
+api_keys.txt
+.ssh/
+.gpg/
+*.pem
+*.key
+
+# Compiled/Generated Files
+*.pyc
+*.pyo
+*.o
+*.class
+*.jar
+
+# Any private/local data (not tracked)
+private/
+local/
+temp/
+.local/
