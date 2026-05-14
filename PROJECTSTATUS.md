@@ -29,7 +29,7 @@
 | `OFFLINE_STRATEGIE.md` | ✅ | Offline-architectuur |
 | `PROJECTSTATUS.md` | ✅ | Deze file |
 | `.gitignore` | ✅ | Security & exclusions |
-| Mappenstructuur | ✅ | Mappen aangemaakt met `.gitkeep` |
+| `.gitkeep` bestanden | ⏳ | In aanmaak |
 
 ---
 
@@ -37,6 +37,7 @@
 
 | Punt | Prioriteit | Notitie |
 |------|------------|---------|
+| `.gitkeep` bestanden aanmaken | 🔴 Direct | Voor mappenstructuur |
 | Voorbeeld handleidingen toevoegen | 🟡 Medium | PDF's of markdown |
 | Voertuigdata schema's definiëren | 🟡 Medium | SQLite of JSON |
 | CLI/Desktop-prototype | 🟠 Hoog | Eerste werkende tool |
@@ -48,19 +49,20 @@
 ## Volgende Beste Stappen
 
 ### Korte Termijn (Week 1)
-1. Voorbeeld-voertuigdata toevoegen (`offline/voertuigen/`)
-2. Basis SQLite-schema's definiëren
-3. Eerste import-script schrijven
+1. `.gitkeep` bestanden aanmaken
+2. Voorbeeld-voertuigdata toevoegen (`offline/voertuigen/`)
+3. Basis SQLite-schema's definiëren
+4. Eerste import-script schrijven
 
 ### Middellange Termijn (Week 2-3)
-4. CLI-tool voor voertuig-lookup
-5. Desktop-shell (Electron of Qt proof-of-concept)
-6. Handleidingen-zoekindex
+5. CLI-tool voor voertuig-lookup
+6. Desktop-shell (Electron of Qt proof-of-concept)
+7. Handleidingen-zoekindex
 
 ### Lange Termijn (Later)
-7. Full UI voor klus-notitiën
-8. Sync-mechanisme (optioneel)
-9. Mobile companion-app
+8. Full UI voor klus-notitiën
+9. Sync-mechanisme (optioneel)
+10. Mobile companion-app
 
 ---
 
